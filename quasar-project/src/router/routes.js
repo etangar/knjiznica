@@ -8,6 +8,8 @@ const routes = [
       { path: '/onama', component: () => import('pages/OnamaPage.vue') },
       { path: '/lokacija', component: () => import('pages/LokacijaPage.vue') },
       { path: '/login', component: () => import('pages/LoginPage.vue') },
+      { path: '/reg', component: () => import('pages/RegistracijaPage.vue') },
+      { path: '/search', component: () => import('pages/PretrazivanjePage.vue') },
     ]
   },
 

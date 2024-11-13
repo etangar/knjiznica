@@ -86,11 +86,17 @@ const linksList = [
     link: '#/login'
   },
   {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
+    title: 'Registacija',
+    caption: 'Registrirajte se',
     icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
-  }
+    link: '#/reg'
+  },
+    {
+    title: 'Pretraživanje',
+    caption: 'Tražite knjige',
+    icon: 'public',
+    link: '#/search'
+  },
 ]
 
 const leftDrawerOpen = ref(false)
