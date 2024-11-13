@@ -12,10 +12,10 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          Knjižnica
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <div></div>
       </q-toolbar>
     </q-header>
 
@@ -54,41 +54,36 @@ defineOptions({
 })
 
 const linksList = [
-  {
-    title: 'Docs',
-    caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev'
-  },
+
   {
     title: 'Github',
-    caption: 'github.com/quasarframework',
+    caption: 'github.com/knjiznica',
     icon: 'code',
-    link: 'https://github.com/quasarframework'
+    link: 'https://github.com/etangar/knjiznica.git'
   },
   {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
+    title: 'Popis knjiga',
+    caption: 'popis knjiga',
     icon: 'chat',
-    link: 'https://chat.quasar.dev'
+    link: '#/popisKnjiga'
   },
   {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
+    title: 'O nama',
+    caption: 'O Nama Page',
     icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
+    link: '#/onama'
   },
   {
-    title: 'Twitter',
-    caption: '@quasarframework',
+    title: 'Lokacija',
+    caption: 'Naša Lokacija',
     icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
+    link: '#/lokacija'
   },
   {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
+    title: 'Login',
+    caption: 'stranica za login',
     icon: 'public',
-    link: 'https://facebook.quasar.dev'
+    link: '#/login'
   },
   {
     title: 'Quasar Awesome',
